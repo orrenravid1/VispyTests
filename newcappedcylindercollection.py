@@ -7,8 +7,6 @@ from vispy.scene.visuals import InstancedMesh
 from vispy.scene.cameras import TurntableCamera
 from scipy.spatial.transform import Rotation
 
-from cell import Cell   # your JSON-based Cell loader
-
 # Enable instanced rendering
 use(app='pyqt6', gl='gl+')
 
